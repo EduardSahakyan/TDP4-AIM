@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['enemy']
+
+roboflow:
+  workspace: eduard-ryhgy
+  project: tdp4-aim-lj8yu
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/eduard-ryhgy/tdp4-aim-lj8yu/dataset/2
