@@ -13,7 +13,7 @@ import win32con
 import win32api
 
 # Загружаем модель
-model = YOLO("best.pt")
+model = YOLO("runs/detect/train5/weights/best.pt")
 
 # Параметры ресайза (ускоряет YOLO)
 RESIZED_WIDTH = 640
